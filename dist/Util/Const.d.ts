@@ -1,0 +1,22 @@
+declare enum OrderStatus {
+    ORDER_CREATED = " ",
+    ORDER_VERIFIED = "1",
+    ORDER_CONFIRMED = "2",
+    ORDER_TO_MANUFACTURER = "3",
+    MATERIAL_INDENT = "4",
+    BUILD_IN_PROGRESS = "5",
+    READY_TO_SHIP = "6",
+    COURIER_PICKED_UP = "7",
+    CUSTOM_CLEARANCE = "8",
+    CUSTOMER_RECEIPT = "9",
+    ORDER_COMPLETED = "C",
+    ORDER_RETURNED = "R",
+    ORDER_CANCELLED = "X"
+}
+declare enum Status {
+    DECLINED = "DECLINED",
+    REJECTED = "REJECTED",
+    ACCEPTED = "ACCEPTED",
+    APPROVED = "APPROVED",
+    PENDING = "PENDING"
+}

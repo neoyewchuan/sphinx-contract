@@ -1,0 +1,14 @@
+declare function randDocNumber(docType: string): string;
+declare function randFirstName(): string;
+declare function randLastName(): string;
+declare function randStreetName(): string;
+declare function randUnitNumber(): string;
+declare function randPhoneNumber(): string;
+declare function randCourier(): string;
+declare function randDescriptionOfGoods(): string;
+declare function randManufacturer(): string;
+declare function randProdModel(): string;
+declare function randWarrantyPeriod(): number;
+declare function randCustomer(): string;
+declare function randInstruction(): string;
+declare function randPayType(): string;
